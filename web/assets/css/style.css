@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Altura mínima del viewport */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0; /* Aumentamos el padding para dar más espacio al texto */
+    text-align: center; /* Alineación centrada */
+    box-sizing: border-box; /* Incluir padding en el cálculo del tamaño */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto; /* Empuja el footer hacia abajo */
+    width: 100%; /* Asegura que el footer ocupe todo el ancho */
+    box-sizing: border-box; /* Incluir padding en el cálculo del tamaño */
+}
+
+.footer-content {
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px; /* Aumentar el área de interacción */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones suaves */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Color de fondo al pasar el mouse */
+    color: #fff; /* Color del texto al pasar el mouse */
+}
+
+main {
+    flex: 1; /* Ocupar todo el espacio restante */
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"] {
+    padding: 8px;
+    width: 300px;
+    max-width: 100%;
+    box-sizing: border-box; /* Incluir padding en el cálculo del tamaño */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+.upload-section {
+    margin: 20px;
+}
+
+.recent-uploads {
+    margin-top: 20px;
+}
+
+.recent-uploads ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recent-uploads li {
+    margin-bottom: 10px;
+}
+
+.dashboard-buttons button {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-buttons button:hover {
+    background-color: #555;
+}
+
+.recent-activities {
+    margin-top: 20px;
+}
+
+.recent-activities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recent-activities li {
+    margin-bottom: 10px;
+}
